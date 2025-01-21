@@ -1,0 +1,23 @@
+Core Function: 
+
+	- program needs to be able to create, save, and load multiple objects 
+	- objects need to have states that change depending on the class selected for them 
+	- although states are different, all classes should have same interface of methods 
+
+Classes: 
+
+	- at least 4 classes needed for type of character (mage, warrior, etc) 
+		- initialization begins with random numbers to put into different stats (*** may do this differently tbh)
+		- need at least 5 states (stats) that are different based on class, such as attack/defense/etc 
+		- should have similar methods for misc actions, do not need to actually interact with another object (ex: actually damaging an enemy), just needs to perform a calculation or print a string
+	- class(es) needed for saving and loading, a utility class
+		- user can pick the text file chosen 
+
+
+
+Plan:
+
+	- create the save/load class first, since this will be the most difficult to implement (use random info straight in console for now)
+	- create 1 fantasy class to get through second-hardest part 
+		- work from static values first until satisfied then gradually work in the random/user-choosable values
+		
